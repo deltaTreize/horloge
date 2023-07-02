@@ -1,0 +1,144 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+
+.cadrant {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    border: 5px solid #000000;
+    background-image: url(/bgEngrenage.jpg);
+    background-position: 50%;
+    box-shadow: 4px 3px 20px 9px rgba(0, 0, 0, 0.634);
+}
+
+.hour {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 0% 0px;
+    width: 5px;
+    height: 30%;
+    background-color: #1f6197;
+    z-index: 1;
+}
+
+.minut {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 0% 0px;
+    width: 5px;
+    height: 40%;
+    background-color: #1f6197;
+    z-index: 2;
+}
+
+.second {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 0% 0px;
+    width: 2px;
+    height: 45%;
+    background-color: #1f6197;
+    z-index: 3;
+}
+
+.centre {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #b8b9b9f1;
+    z-index: 4;
+}
+
+.texte p {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+    display: block;
+    height: 200px;
+    width: 50px;
+    left: 44%;
+    top: 0;
+    transform-origin: 50% 100% 0px;
+    text-align: center;
+    overflow: visible;
+}
+
+.texte p:nth-child(1) {
+    rotate: 30deg;
+}
+
+.texte p:nth-child(2) {
+    rotate: 60deg;
+}
+
+.texte p:nth-child(3) {
+    rotate: 90deg;
+}
+
+.texte p:nth-child(4) {
+    rotate: 120deg;
+}
+
+.texte p:nth-child(5) {
+    rotate: 150deg;
+}
+
+.texte p:nth-child(6) {
+    rotate: 180deg;
+}
+
+.texte p:nth-child(7) {
+    rotate: 210deg;
+}
+
+.texte p:nth-child(8) {
+    rotate: 240deg;
+}
+
+.texte p:nth-child(9) {
+    rotate: 270deg;
+}
+
+.texte p:nth-child(10) {
+    rotate: 300deg;
+}
+
+.texte p:nth-child(11) {
+    rotate: 330deg;
+}
+
+.texte p:nth-child(12) {
+    rotate: 0deg;
+}
+
+.date {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    border: 3px solid #1f6197;
+    text-align: center;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 600;
+    top: 55%;
+    left: 71%;
+    transform: translate(50%, -100%);
+}
