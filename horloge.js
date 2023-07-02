@@ -3,7 +3,6 @@ const minutes = document.querySelector(".minut");
 const secondes = document.querySelector(".second");
 const datej = document.querySelector(".date");
 
-
 function havetime() {
   let date = new Date();
   let heureT = date.getHours();
@@ -22,6 +21,5 @@ function haveDay() {
   let date = new Date();
   let dateT = date.getDate();
   datej.innerHTML = dateT;
-  
 }
 var interval2 = setInterval(haveDay, 1000);

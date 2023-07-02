@@ -13,7 +13,7 @@ body {
     width: 400px;
     border-radius: 200px;
     border: 5px solid #000000;
-    background-image: url(/bgEngrenage.jpg);
+    background-image: url(bgEngrenage.jpg);
     background-position: 50%;
     box-shadow: 4px 3px 20px 9px rgba(0, 0, 0, 0.634);
 }
